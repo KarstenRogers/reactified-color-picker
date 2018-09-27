@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+main {
+  margin: 0;
+}
+.slide {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.color-box {
+  display: flex;
+  flex-direction: column;
+}
+.colors{
+  background-color: aliceblue;
+  width: 125px;
+  height: 125px;
+  border: solid 7px black
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+li {
+  margin-top: 3%;
+  font-size: 2rem;
+  list-style: none;
+}
+.color-frame {
+  border-radius: 1%;
+  flex-direction: column;
+  display: flex;
+  border: solid 7px black;
+  background-color: white;
+  margin: 8% 20%;
+}
+input {
+  width: 200%;
+}
